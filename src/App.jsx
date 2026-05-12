@@ -779,12 +779,12 @@ function App() {
                             <td>
                               <span
                                 className={`badge ${
-                                  item.decision?.toLowerCase() === "admis"
+                                  item.statut?.toLowerCase() === "admis"
                                     ? "badge-admis"
                                     : "badge-ajourne"
                                 }`}
                               >
-                                {item.decision}
+                                {item.statut}
                               </span>
                             </td>
                           </tr>
