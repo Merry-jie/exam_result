@@ -726,7 +726,7 @@ function App() {
 
               <div className="list-card">
                 <h2>RÉSULTATS OFFICIELS</h2>
-
+                  <h4>Les admis</h4>
                 {supabaseError && (
                   <div className="info-message">
                     ⚠️ Connexion à la base de données non configurée.<br/>
