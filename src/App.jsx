@@ -709,12 +709,7 @@ function App() {
             <section className="list-page">
               <nav className="form-navbar-fixed">
                 <div className="logo-container">
-                  <img
-                    src="https://via.placeholder.com/32/0072ff/ffffff?text=EN"
-                    alt="Logo"
-                    className="logo-image"
-                  />
-                  <span className="logo-text">EXAMNEXT</span>
+                  n className="logo-text">EXAMNEXT</span>
                 </div>
                 <div className="nav-btns">
                   <button onClick={() => setIsHome(true)}>ACCUEIL</button>
